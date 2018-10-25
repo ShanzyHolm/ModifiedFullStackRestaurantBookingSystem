@@ -1,0 +1,35 @@
+"proxy": "http://localhost:8080/"
+
+
+  // componentDidMount(){
+  //     fetch(this.url)
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       if(data._embedded){
+  //       this.setState({bookings: data._embedded.bookings})
+  //     } else {
+  //       this.setState({bookings: [data]})
+  //     }
+  //     })
+  //
+  //   }
+
+
+
+              //<Route exact path="/customers" render={() => {
+              //   const url = "/customers";
+              //   return <CustomerContainer url={url}/>
+              // }}/>
+
+
+{/* <ul>
+        <li className="navLink">
+          <Link to="/customers">View All Customers</Link>
+        </li>
+        <li className="navLink">
+          <Link to="/bookings">View All Bookings</Link>
+        </li>
+        {/* <li className="navLink">
+          <Link to="/ships">Ships</Link>
+      </li> */}
+    </ul> */}
